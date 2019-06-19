@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpinnerContent" customModule="SpinnerKit" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="Tun-uS-g34" id="RZA-D1-oww"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Tun-uS-g34">
+                    <rect key="frame" x="0.0" y="44" width="302" height="222"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="0.63958465580000001" green="0.54695073039999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Tun-uS-g34" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Kbq-cc-REY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Tun-uS-g34" secondAttribute="trailing" id="Wnc-jf-xwa"/>
+                <constraint firstItem="Tun-uS-g34" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dpj-OI-9Of"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Tun-uS-g34" secondAttribute="bottom" id="vbi-C7-QCt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="56.521739130434788" y="-54.910714285714285"/>
+        </view>
+    </objects>
+</document>
