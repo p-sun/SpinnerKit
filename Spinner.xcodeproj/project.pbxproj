@@ -13,9 +13,6 @@
 		9B7FE57922BAE774005F42BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FE57822BAE774005F42BD /* Assets.xcassets */; };
 		9B7FE57C22BAE774005F42BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FE57A22BAE774005F42BD /* LaunchScreen.storyboard */; };
 		9B7FE58722BAE774005F42BD /* SpinnerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FE58622BAE774005F42BD /* SpinnerKitTests.swift */; };
-		9B7FE59322BAE7EC005F42BD /* SpinnerContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7FE59222BAE7EC005F42BD /* SpinnerContent.xib */; };
-		9B7FE59522BAE950005F42BD /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FE59422BAE950005F42BD /* NibLoadable.swift */; };
-		9B7FE59722BAE96B005F42BD /* SpinnerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FE59622BAE96B005F42BD /* SpinnerContent.swift */; };
 		9B7FE59D22BAE9FC005F42BD /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FE59A22BAE9FC005F42BD /* UIView+Constraints.swift */; };
 		9B7FE5A022BAEBE7005F42BD /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FE59F22BAEBE7005F42BD /* Spinner.swift */; };
 /* End PBXBuildFile section */
@@ -41,9 +38,6 @@
 		9B7FE58222BAE774005F42BD /* SpinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7FE58622BAE774005F42BD /* SpinnerKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerKitTests.swift; sourceTree = "<group>"; };
 		9B7FE58822BAE774005F42BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B7FE59222BAE7EC005F42BD /* SpinnerContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerContent.xib; sourceTree = "<group>"; };
-		9B7FE59422BAE950005F42BD /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
-		9B7FE59622BAE96B005F42BD /* SpinnerContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerContent.swift; sourceTree = "<group>"; };
 		9B7FE59A22BAE9FC005F42BD /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		9B7FE59F22BAEBE7005F42BD /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,21 +104,10 @@
 		9B7FE59122BAE7BC005F42BD /* SpinnerKit */ = {
 			isa = PBXGroup;
 			children = (
-				9B7FE59822BAE9FC005F42BD /* Constraints */,
+				9B7FE59A22BAE9FC005F42BD /* UIView+Constraints.swift */,
 				9B7FE59F22BAEBE7005F42BD /* Spinner.swift */,
-				9B7FE59222BAE7EC005F42BD /* SpinnerContent.xib */,
-				9B7FE59622BAE96B005F42BD /* SpinnerContent.swift */,
 			);
 			path = SpinnerKit;
-			sourceTree = "<group>";
-		};
-		9B7FE59822BAE9FC005F42BD /* Constraints */ = {
-			isa = PBXGroup;
-			children = (
-				9B7FE59422BAE950005F42BD /* NibLoadable.swift */,
-				9B7FE59A22BAE9FC005F42BD /* UIView+Constraints.swift */,
-			);
-			path = Constraints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +193,6 @@
 			files = (
 				9B7FE57C22BAE774005F42BD /* LaunchScreen.storyboard in Resources */,
 				9B7FE57922BAE774005F42BD /* Assets.xcassets in Resources */,
-				9B7FE59322BAE7EC005F42BD /* SpinnerContent.xib in Resources */,
 				9B7FE57722BAE773005F42BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,10 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7FE59522BAE950005F42BD /* NibLoadable.swift in Sources */,
 				9B7FE57422BAE773005F42BD /* ViewController.swift in Sources */,
 				9B7FE59D22BAE9FC005F42BD /* UIView+Constraints.swift in Sources */,
-				9B7FE59722BAE96B005F42BD /* SpinnerContent.swift in Sources */,
 				9B7FE57222BAE773005F42BD /* AppDelegate.swift in Sources */,
 				9B7FE5A022BAEBE7005F42BD /* Spinner.swift in Sources */,
 			);

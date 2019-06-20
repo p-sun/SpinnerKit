@@ -32,3 +32,29 @@ struct Spinner {
         return view
     }
 }
+
+private class SpinnerContent: UIView {
+    
+    private lazy var activityView: UIView = {
+        let view = UIActivityIndicatorView()
+        view.style = .whiteLarge
+        view.transform = CGAffineTransform(scaleX: 2, y: 2)
+        view.startAnimating()
+        return view
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setup()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setup() {
+        let view = activityView
+        addSubview(view)
+        view.constrainEdges(to: self)
+    }
+}
