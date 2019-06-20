@@ -5,8 +5,6 @@ Minimalistic progress spinner in Swift 5.
 
 ## Usage
 
-The SpinnerKit folder is yours for the taking.
-
 ```swift
 Spinner.show(in: view)
 ````
@@ -14,6 +12,7 @@ Spinner.show(in: view)
 ```swift
 Spinner.hide(in: view)
 ````
+The SpinnerKit folder is yours for the taking.
 
 ## Also Examples of
 
