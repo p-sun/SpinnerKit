@@ -1,5 +1,5 @@
 # SpinnerKit
-Minimalistic progress spinner for Swift 5.
+Minimalistic progress spinner in Swift 5.
 
 ![SpinnerKit][Spinner]
 
